@@ -10,6 +10,10 @@ class SecurePage extends Page {
      */
     get productsContainer() {
         return $('#inventory_container');
+   }
+
+    get errorMessage() {
+        return $('h3[data-test="error"]');
     }
 }
 
