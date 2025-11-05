@@ -9,15 +9,15 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get simpleUser () {
-        return $("#user-name");
+        return $('#user-name');
     }
 
     get simplePass () {
-        return $("#password");
+        return $('#password');
     }
 
     get btnLogin () {
-        return $("#login-button");
+        return $('#login-button');
     }
 
     /**
